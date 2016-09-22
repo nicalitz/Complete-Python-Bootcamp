@@ -33,3 +33,7 @@ print rev("Hello")
 # We can accept more than one function in the lambda expression
 adder = lambda x, y: x + y
 print adder(2, 4)
+
+# notice how lambda can be called anonymously (without asigning to a variable)
+new_list = [(lambda x: x*3)(num) for num in range(5)]
+print new
