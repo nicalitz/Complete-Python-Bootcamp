@@ -8,7 +8,7 @@ You'll later see that we can think of methods as having an argument 'self' refer
 You can't see this argument but we will be using it later on in the course during the OOP lectures.
 '''
 
-l = [1,2,3,4,5]
+l = [1, 2, 3, 4, 5]
 
 # append() allows us to add elements to the list
 l.append(6)
@@ -18,11 +18,11 @@ print l
 print l.count(2)
 
 # extend list by appending items from an iterable
-l.extend(x for x in range(7,11))
+l.extend(x for x in range(7, 11))
 print l
 
 # insert object before index
-l.insert(2,'insert')
+l.insert(2, 'insert')
 print l
 
 # remove and return item at index (default last item)
