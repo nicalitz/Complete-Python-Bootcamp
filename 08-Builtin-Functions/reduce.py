@@ -6,6 +6,10 @@ Syntax:   reduce(function,sequence)
 reduce the elements in the sequence to a single value by iteratively applying the specified function
 '''
 
-list = [4,56,23,453,666,23,6789,34]
+list = [4, 56, 23, 453, 666, 23, 6789, 34]
 
-print reduce(lambda a,b: a if (a>b) else b,list)    # find the maximum value of a list
+# find the maximum value in a list
+print reduce(lambda a, b: a if (a > b) else b, list)
+
+# funt the sum of the values in a list
+print reduce(lambda a, b: a+b, list)

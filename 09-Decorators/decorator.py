@@ -16,4 +16,4 @@ def basic_function():
 basic_function()
 
 basic_function = decorate_function(basic_function)
-#basic_function()
+basic_function()
